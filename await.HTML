@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+<p id="p"> </p>
+<script> 
+async function add(a,b){
+var response=await a+b
+display(response)
+}
+function display(sum){
+document.getElementById("p").innerHTML=sum
+}
+add(3,7)
+</script>
+</body>
+</html>
